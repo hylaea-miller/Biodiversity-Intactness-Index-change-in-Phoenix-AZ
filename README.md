@@ -7,7 +7,7 @@ Date: 12/06/2025
 
 ## About
 
-This repository contains all the materials for the final project tesk 2 of the course EDS 220: Working with Environmental Datasets.
+This repository contains all the materials for the final project task 2 of the course EDS 220: Working with Environmental Datasets.
 
 For this assignment, I explored biodiversity change in the Phoenix subdivision using the Biodiversity Intactness Index (BII) from the Microsoft Planetary Computer. The analysis includes accessing Earth observation data through STAC catalogs, processing geospatial raster data, and visualizing biodiversity loss patterns between 2017 and 2020.
 
@@ -18,25 +18,27 @@ The Project directory contains:
 ```         
 Biodiversity-Intactness-Index-change-in-Phoenix-AZ
 │   README.md
-|   notebooks
+|   biodiversity_intactness_index.ipynb
 |   .gitignore
 │
 └── data 
-    │   tl_2024_04_cousub.shp 
+    └── tl_2024_04_cousub.shp 
 
 ```
 
 ## Data Access
 
-You can find the datasets used in this project in here: 
-- [TIGER/Line Shapefile](https://catalog.data.gov/dataset/tiger-line-shapefile-current-state-arizona-county-subdivision) 
+You can find the dataset used in this project in here: 
+- [TIGER/Line Shapefile](https://catalog.data.gov/dataset/tiger-line-shapefile-current-state-arizona-county-subdivision)
+ 
+- [Biodiversity Intactness Index - Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/dataset/io-biodiversity)
 
 
 ## How to Run
 
 Fork and clone this repository to your local environment.
 
-Download the required datasets from the links provided above, and place all files in the `data/` directory.
+Download the required dataset from the link provided above, and place all files in the `data/` directory.
 
 Ensure you have the necessary Python packages installed.
 
